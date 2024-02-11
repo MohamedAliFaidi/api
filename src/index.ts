@@ -5,6 +5,9 @@ import { AppDataSource } from "./data-source"
 import { Routes } from "./routes"
 import { User } from "./entity/User"
 
+
+console.log("test")
+
 AppDataSource.initialize().then(async () => {
 
     // create express app
